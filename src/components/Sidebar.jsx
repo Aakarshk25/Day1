@@ -1,9 +1,10 @@
-import React from 'react'
+import { Stack } from "@mui/material";
+import { categories } from "../utils/constants";
 
-const Slidebar = () => {
+const Sidebar = () => {
   return (
-    <div>Slidebar</div>
+    <div>Sidebar</div>
   )
 }
 
-export default Slidebar
+export default Sidebar;
